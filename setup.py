@@ -29,7 +29,8 @@ setup(
         '-DBUILD_PYTHON_PHOTOCHEM=ON',
         '-DBUILD_EXECUTABLES=OFF',
         '-DBUILD_WITH_OPENMP=ON',
-        '-DCMAKE_POSITION_INDEPENDENT_CODE=ON'
+        '-DCMAKE_POSITION_INDEPENDENT_CODE=ON',
+        '-DPYTHON_EXECUTABLE=/.conda/envs/myenv/bin/python3'
     ]
 )
 

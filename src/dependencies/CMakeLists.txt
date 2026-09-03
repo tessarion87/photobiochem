@@ -56,6 +56,8 @@ CPMAddPackage(
     "SKBUILD ${SKBUILD}"
     "BUILD_PYTHON_CLIMA ${BUILD_PYTHON_PHOTOCHEM}"
     "PYTHON_CLIMA_DESTINATION photochem"
+    "NumPy_INCLUDE_DIRS /home/klockhea/.conda/envs/myenv/lib/python3.14/site-packages/numpy/_core/include"
+
   GITHUB_REPOSITORY "Nicholaswogan/clima"
   GIT_TAG "v0.7.4"
   EXCLUDE_FROM_ALL OFF
@@ -79,6 +81,7 @@ CPMAddPackage(
     "SKBUILD ${SKBUILD}"
     "BUILD_PYTHON_EQUILIBRATE ${BUILD_PYTHON_PHOTOCHEM}"
     "PYTHON_EQUILIBRATE_DESTINATION photochem"
+    "NumPy_INCLUDE_DIRS /home/klockhea/.conda/envs/myenv/lib/python3.14/site-packages/numpy/_core/include"
   GITHUB_REPOSITORY "Nicholaswogan/Equilibrate"
   GIT_TAG "v0.2.2"
   EXCLUDE_FROM_ALL OFF

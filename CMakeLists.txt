@@ -55,7 +55,7 @@ if (BUILD_PYTHON_PHOTOCHEM)
   if (NOT SKBUILD)
     if (NOT DEFINED SKBUILD_CMAKE_MODULE_DIR)
       # Here, we try to find scikit-build cmake modules
-      find_package(Python COMPONENTS Development)
+      #find_package(Python COMPONENTS Development)
       set(SKBUILD_CMAKE_MODULE_DIR "${Python_LIBRARY_DIRS}/python${Python_VERSION_MAJOR}.${Python_VERSION_MINOR}/site-packages/skbuild/resources/cmake")
     endif()
     if (EXISTS ${SKBUILD_CMAKE_MODULE_DIR})
